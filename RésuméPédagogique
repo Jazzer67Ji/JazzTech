@@ -1,0 +1,119 @@
+1. CSR vs SSR
+CSR – Client-Side Rendering
+
+Le Client-Side Rendering (CSR) signifie que le rendu de la page web est fait dans le navigateur du client grâce à JavaScript.
+
+Fonctionnement :
+
+Le serveur envoie un fichier HTML presque vide.
+
+Le navigateur télécharge le JavaScript.
+
+Le JavaScript génère l’interface utilisateur.
+
+Exemples de frameworks :
+
+React
+Vue
+Angular
+
+SSR – Server-Side Rendering
+
+Le Server-Side Rendering (SSR) signifie que le serveur génère directement le HTML complet avant de l’envoyer au navigateur.
+
+Fonctionnement :
+
+Le client demande une page.
+
+Le serveur génère le HTML.
+
+Le navigateur reçoit une page déjà prête.
+
+Exemples :
+
+Next.js
+
+Nuxt.js
+
+2. Les verbes HTTP
+
+Les verbes HTTP (ou méthodes HTTP) indiquent l’action que le client veut effectuer sur une ressource.
+
+Principaux verbes :
+
+Verbe	    Utilisation
+GET      	Récupérer une ressource
+POST	    Créer une ressource
+PUT	      Modifier complètement une ressource
+PATCH    	Modifier partiellement une ressource
+DELETE	  Supprimer une ressource
+
+3. DNS et fonctionnement d’un nom de domaine
+
+Le DNS (Domain Name System) est un système qui traduit un nom de domaine en adresse IP.
+
+Exemple :
+
+google.com → 142.250.74.14
+
+Sans DNS, il faudrait mémoriser les adresses IP des sites.
+
+Étapes d’une requête DNS
+
+L’utilisateur tape example.com.
+
+Le navigateur demande l’IP au resolver DNS.
+
+Le resolver interroge les serveurs DNS.
+
+Il reçoit l’adresse IP.
+
+Le navigateur contacte le serveur web.
+
+
+4. Architecture microservices vs monolithique
+Architecture monolithique
+
+Dans une architecture monolithique, toute l’application est dans un seul bloc.
+
+Exemple :
+
+Backend
+Base de données
+Authentification
+API
+
+Tout est dans le même projet.
+
+Architecture microservices
+
+Dans une architecture microservices, l’application est divisée en plusieurs services indépendants.
+
+Exemple :
+
+service utilisateur
+service paiement
+service commande
+service notification
+
+Chaque service :
+
+a son propre code, communique via API et peut être déployé indépendamment
+
+Technologies souvent utilisées :
+
+Docker
+Kubernetes
+
+5. Semver, Git, etc.
+Semver (Semantic Versioning)
+
+Le Semantic Versioning (SemVer) est une convention pour numéroter les versions d’un logiciel.
+
+Git
+
+Git est un système de gestion de version.
+
+Il permet de :
+
+suivre les modifications du code, travailler en équipe, revenir à une version précédente
