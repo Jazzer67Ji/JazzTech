@@ -13,18 +13,18 @@ export default defineConfig({
   },
 });
 
-// test.describe('Cart - Update quantity', () => {
+test.describe('Cart - Update quantity', () => {
 
-//   test('user can update product quantity', async ({ page }) => {
+  test('user can update product quantity', async ({ page }) => {
 
-//     await page.goto('/cart');
+    await page.goto('/cart');
 
-//     const quantityInput = page.locator('[data-testid="quantity-input"]').first();
+    const quantityInput = page.locator('[data-testid="quantity-input"]').first();
 
-//     await quantityInput.fill('3');
+    await quantityInput.fill('3');
 
-//     await expect(quantityInput).toHaveValue('3');
+    await expect(quantityInput).toHaveValue('3');
 
-//   });
+  });
 
-// });
+});

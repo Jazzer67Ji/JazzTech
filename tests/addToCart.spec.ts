@@ -13,16 +13,16 @@ export default defineConfig({
   },
 });
 
-// test.describe('Cart - Add product', () => {
+test.describe('Cart - Add product', () => {
 
-//   test('user can add a product to cart', async ({ page }) => {
-//     await page.goto('/products/1');
+  test('user can add a product to cart', async ({ page }) => {
+    await page.goto('/products/1');
 
-//     await page.click('[data-testid="add-to-cart"]');
+    await page.click('[data-testid="add-to-cart"]');
 
-//     await page.goto('/cart');
+    await page.goto('/cart');
 
-//     await expect(page.locator('[data-testid="cart-item"]')).toHaveCount(1);
-//   });
+    await expect(page.locator('[data-testid="cart-item"]')).toHaveCount(1);
+  });
 
-// });
+});
