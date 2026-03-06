@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import { useCart } from '../contexts/CartContext';
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function Cart() {
   // utilisation du contexte panier pour obtenir les actions et données

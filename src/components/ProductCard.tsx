@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 import { ShoppingCart } from 'lucide-react';
 import { Product } from '../data/products';
 import { useCart } from '../contexts/CartContext';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface ProductCardProps {
   product: Product;

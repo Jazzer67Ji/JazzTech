@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router';
 import { Header } from './Header';
-import { Toaster } from 'sonner@2.0.3';
+import { Toaster } from 'sonner';
 
 export function RootLayout() {
   // layout global partagé par toutes les routes enfants

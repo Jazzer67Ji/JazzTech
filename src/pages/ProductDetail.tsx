@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router';
 import { products } from '../data/products';
 import { useCart } from '../contexts/CartContext';
 import { ShoppingCart, ArrowLeft, Plus, Minus } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function ProductDetail() {
   // récupération de l'identifiant du produit dans l'URL

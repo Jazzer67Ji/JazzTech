@@ -1,3 +1,10 @@
 .idea
 node_modules
 18_06_ecom
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

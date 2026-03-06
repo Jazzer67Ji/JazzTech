@@ -20,18 +20,18 @@ export const products: Product[] = [
   },
   {
     id: "2",
-    name: "Montre Connectée Elite",
+    name: "Montre Deluxe",
     price: 449.99,
-    description: "Montre connectée haut de gamme avec écran AMOLED, suivi santé complet, GPS intégré et étanchéité 50m. Compatible iOS et Android.",
+    description: "Montre Deluxe avec boîtier en acier inoxydable, mouvement automatique suisse et résistance à l'eau jusqu'à 100mbracelet en métal.",
     image: "https://images.unsplash.com/photo-1636639818651-d97365346a5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB3YXRjaCUyMHNpbHZlcnxlbnwxfHx8fDE3NzA3OTg1Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Accessoires",
     stock: 8
   },
   {
     id: "3",
-    name: "Clavier Mécanique RGB",
+    name: "Clavier MultiDevice",
     price: 159.99,
-    description: "Clavier mécanique sans fil avec rétroéclairage RGB personnalisable. Switches mécaniques premium, autonomie 3 mois, design compact.",
+    description: "Clavier MultiDevice sans fil avec autonomie 3 mois, design compact.",
     image: "https://images.unsplash.com/photo-1686730491204-819a6dda6c68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aXJlbGVzcyUyMGtleWJvYXJkJTIwbWluaW1hbGlzdHxlbnwxfHx8fDE3NzA4NzcwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Informatique",
     stock: 12
